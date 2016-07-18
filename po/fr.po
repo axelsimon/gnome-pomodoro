@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: gnome-pomodoro\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-05-20 16:00+0200\n"
-"PO-Revision-Date: 2015-05-20 17:07+0200\n"
-"Last-Translator: Bastien Traverse <bt@esrevart.net>\n"
+"PO-Revision-Date: 2016-07-18 16:55+0100\n"
+"Last-Translator: axel simon <axel+github@axelsimon.net>\n"
 "Language-Team: \n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -42,7 +42,7 @@ msgstr ""
 
 #: ../data/org.gnome.Pomodoro.desktop.in.h:2 ../lib/about-dialog.vala:30
 msgid "A simple time management utility"
-msgstr "Un outils simple de gestion du temps"
+msgstr "Un outil simple de gestion du temps"
 
 #: ../data/org.gnome.Pomodoro.desktop.in.h:3
 msgid "time;timer;tasks;manage;organize;"
@@ -70,7 +70,7 @@ msgstr "Démarrer Pomodoro"
 
 #: ../extension/indicator.js:94
 msgid "Take a Break"
-msgstr "Faire une pause"
+msgstr "Prendre une pause"
 
 #: ../extension/indicator.js:98 ../lib/preferences-dialog.vala:821
 msgid "Preferences"
@@ -78,11 +78,11 @@ msgstr "Préférences"
 
 #: ../extension/indicator.js:186
 msgid "Take Shorter Break"
-msgstr "Faire une pause courte"
+msgstr "Prendre une courte pause"
 
 #: ../extension/indicator.js:186
 msgid "Take Longer Break"
-msgstr "Faire une pause longue"
+msgstr "Prendre une pause plus longue"
 
 #: ../extension/indicator.js:400
 #, javascript-format
@@ -100,11 +100,11 @@ msgstr "Concentrez-vous sur votre tâche."
 
 #: ../extension/notifications.js:172
 msgid "Take a break"
-msgstr "Faites une pause"
+msgstr "Prenez une pause"
 
 #: ../extension/notifications.js:186
 msgid "Take a break!"
-msgstr "Faites une pause !"
+msgstr "Prenez une pause !"
 
 #: ../extension/notifications.js:220
 #, javascript-format
@@ -163,7 +163,7 @@ msgstr "À propos de Pomodoro"
 
 #: ../lib/about-dialog.vala:38
 msgid "translator-credits"
-msgstr "Bastien Traverse <bt@esrevart.net>"
+msgstr "Bastien Traverse <bt@esrevart.net>, axel simon <axel+github@axelsimom.net>"
 
 #: ../lib/gnome-desktop-module.vala:490
 msgid "Indicator for Pomodoro will show up after you restart your desktop."
@@ -179,11 +179,11 @@ msgstr "_Redémarrer"
 
 #: ../lib/gnome-desktop-module.vala:575
 msgid "Extension does not support shell version"
-msgstr "L'extension n'est pas compatible avec la version du shell"
+msgstr "L'extension n'est pas compatible avec la version de Gnome shell"
 
 #: ../lib/gnome-desktop-module.vala:576
 msgid "You need to upgrade Pomodoro."
-msgstr "Vous devez mettre à niveau Pomodoro."
+msgstr "Il est nécessaire de mettre Pomodoro à niveau."
 
 #: ../lib/gnome-desktop-module.vala:577
 msgid "Upgrade"
@@ -205,8 +205,8 @@ msgstr "L'extension Pomodoro est désactivée"
 #: ../lib/gnome-desktop-module.vala:630
 msgid "Extension provides better desktop integration for the pomodoro app."
 msgstr ""
-"L'extension procure une meilleure intégration au bureau pour l'application "
-"pomodoro."
+"L'extension permet une meilleure intégration de l'application "
+"pomodoro dans le bureau."
 
 #: ../lib/gnome-desktop-module.vala:631
 msgid "Enable"
@@ -225,7 +225,7 @@ msgid ""
 msgstr ""
 "Le raccourci \"%s\" ne peut as être utilisé parce qu'il deviendrait "
 "impossible de taper en utilisant cette touche.\n"
-"Merci d'essayer avec une touche telle que Ctrl, Alt ou Maj en même temps."
+"Essayez de la combiner avec une touche telle que Ctrl, Alt ou Maj."
 
 #: ../lib/preferences-dialog.vala:204 ../lib/preferences-dialog.vala:564
 msgid "On"
@@ -285,7 +285,7 @@ msgstr "Oiseaux forestiers"
 
 #: ../lib/preferences-dialog.vala:810
 msgid "Loud bell"
-msgstr "Cloche forte"
+msgstr "Cloche bruyante"
 
 #: ../lib/preferences-dialog.vala:814
 msgid "Bell"
@@ -301,7 +301,7 @@ msgstr "Durée d'un pomodoro"
 
 #: ../lib/preferences-dialog.vala:1015
 msgid "Short break duration"
-msgstr "Durée d'une pause courte"
+msgstr "Durée d'une courte pause"
 
 #: ../lib/preferences-dialog.vala:1019
 msgid "Long break duration"
@@ -321,11 +321,11 @@ msgstr "Apparence de l'indicateur"
 
 #: ../lib/preferences-dialog.vala:1065
 msgid "Select ticking sound"
-msgstr "Choisir un tic-tac"
+msgstr "Choisir un type de tic-tac"
 
 #: ../lib/preferences-dialog.vala:1079
 msgid "Ticking sound"
-msgstr "Tic-tac"
+msgstr "Type de tic-tac"
 
 #: ../lib/preferences-dialog.vala:1109
 msgid "Notifications"
@@ -389,7 +389,7 @@ msgstr "Changer le statut de présence"
 
 #: ../lib/sound-chooser-button.vala:124
 msgid "_No sound"
-msgstr "Pas de so_n"
+msgstr "_Pas de son"
 
 #: ../lib/sound-chooser-button.vala:128
 msgid "_Open"
@@ -430,7 +430,7 @@ msgstr[0] "%d minute"
 msgstr[1] "%d minutes"
 
 #~ msgid "Looks like gnome-pomodoro is not installed"
-#~ msgstr "Il semble que gnome-pomodoro ne soit pas installé"
+#~ msgstr "Il semble que gnome-pomodoro n'est pas installé"
 
 #~ msgid "A new pomodoro is starting"
 #~ msgstr "Un nouveau pomodoro démarre"
@@ -488,7 +488,7 @@ msgstr[1] "%d minutes"
 #~ msgstr "Impossible de lancer le pomodoro"
 
 #~ msgid "Something went badly wrong..."
-#~ msgstr "Quelque chose s'est très mal passé..."
+#~ msgstr "Quelque chose s'est très mal passé…"
 
 #~ msgid "Install"
 #~ msgstr "Installer"
@@ -502,7 +502,7 @@ msgstr[1] "%d minutes"
 
 #, fuzzy
 #~ msgid "Away From Desk"
-#~ msgstr "Éloigné du poste de travail"
+#~ msgstr "Pas à son poste"
 
 #, fuzzy
 #~ msgid "No Completed Sessions"
@@ -520,21 +520,21 @@ msgstr[1] "%d minutes"
 
 #, fuzzy
 #~ msgid "Time in seconds you are supposed to be working."
-#~ msgstr "Temps en secondes que vous êtes censé travailler."
+#~ msgstr "Temps que vous êtes censé·e passer à travailler, en secondes."
 
 #~ msgid "Short pause duration"
-#~ msgstr "Durée de la pause courte"
+#~ msgstr "Durée des courtes pauses"
 
 #, fuzzy
 #~ msgid "Time in seconds you are supposed to have a short break."
-#~ msgstr "Temps en secondes que vous êtes censé faire en pause courte."
+#~ msgstr "Temps que vous êtes censé·e passer en courte pause, en secondes."
 
 #~ msgid "Long pause duration"
-#~ msgstr "Durée de la pause longue"
+#~ msgstr "Durée des pauses longues"
 
 #, fuzzy
 #~ msgid "Time in seconds you are supposed to have a longer break."
-#~ msgstr "Temps en secondes que vous êtes censé faire en pause longue."
+#~ msgstr "Temps que vous êtes censé·e passer en pause longue, en secondes."
 
 #, fuzzy
 #~ msgid "Whether to show a notification dialog when pause starts."
@@ -549,11 +549,11 @@ msgstr[1] "%d minutes"
 
 #, fuzzy
 #~ msgid "Whether to change user and IM presence to busy."
-#~ msgstr "Changer le statut de présence de l’utilisateur en Occupé."
+#~ msgstr "Changer votre statut de présence en Occupé."
 
 #, fuzzy
 #~ msgid "Whether to play a sound to notify of events."
-#~ msgstr "Si il faut jouer un son pour indiquer les notifications."
+#~ msgstr "Jouer un son pour notifier des événements."
 
 #~ msgid "Notification sound file"
 #~ msgstr "Fichier du son de notification"
@@ -564,13 +564,13 @@ msgstr[1] "%d minutes"
 
 #, fuzzy
 #~ msgid "Whether to restore state on startup."
-#~ msgstr "Si il faut restaurer l’état du minuteur au démarrage."
+#~ msgstr "Restaurer l’état du minuteur au démarrage."
 
 #~ msgid "Number of completed sessions"
 #~ msgstr "Nombre de pomodoro terminés"
 
 #~ msgid "Number of completed sessions since long break"
-#~ msgstr "Nombre de pomodoro terminés depuis la longue pause"
+#~ msgstr "Nombre de pomodoro terminés depuis la pause longue"
 
 #, fuzzy
 #~ msgid "Saved timer state"
@@ -586,7 +586,7 @@ msgstr[1] "%d minutes"
 
 #, fuzzy
 #~ msgid "Set optimal settings for doing paperwork"
-#~ msgstr "Utiliser les meilleurs paramètres pour s’occuper de la paperasse"
+#~ msgstr "Utiliser les paramètres optimaux pour faire de la paperasse"
 
 #, fuzzy
 #~ msgid "Show Dialog Messages"
